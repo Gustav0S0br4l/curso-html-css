@@ -1,0 +1,19 @@
+body{
+    background-color: #331D26;
+}
+strong{
+    color: #5877F5;
+}
+.destaque{
+    color: #D65485;
+}
+p{
+    color: #F57C58;
+}
+h1{
+    color: #F57C58;
+}
+.minhaimg{
+    height: 240px;
+    width: 300px;
+}
