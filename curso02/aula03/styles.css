@@ -1,19 +1,48 @@
 body{
     background-color: #331D26;
+    height: 100vh;
+    box-sizing: border-box;
 }
-strong{
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    padding-left: 2%;
+}
+.mylife{
+    padding-left: 2%;
     color: #5877F5;
+    font-size: 200%;
 }
 .destaque{
     color: #D65485;
 }
-p{
+.texto1{
+    padding-left: 2%;
     color: #F57C58;
+    font-size: 140%;
+    height: 240px;
+    width: 400px;
 }
-h1{
+.titulo{
     color: #F57C58;
+    text-align: center;
+    width: 100%;
+}
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .minhaimg{
     height: 240px;
     width: 300px;
+}
+.ladoalado{
+    display: flex;
 }
